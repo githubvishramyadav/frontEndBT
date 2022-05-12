@@ -1,0 +1,191 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/AboutHomePage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 95%;
+    height: 10vh;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    width: 25%;
+    /* text-align: center; */
+    margin-top: 100px;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 35px;
+}
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .menu a{
+    width: 30%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+nav .menu a:hover{
+    background-color: rgb(203, 226, 247);
+    color: black;
+    text-align: center;
+}
+main{
+    width: 60%;
+    height: 110%;
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    line-height: 50px;
+    color: black;
+}
+
+/* section{
+
+} */
+section h2{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+section p{
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    font-size: 25px;
+    text-transform: uppercase;
+    border: 5px solid rgb(88, 87, 87);
+    margin-left: 100px;
+    /* border-bottom: #000;
+    border-right: #000; */
+    border-top: #fff;
+    border-left: #fff;
+
+}
+
+/* ======================================================================= */
+
+.intro{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+}
+.textIntro{
+    float: left;
+    width: 100%;
+}
+
+.imgIntro{
+    width: 35%;
+}
+
+.textIntro p{
+    height: 70%;
+    margin-left: 100px;
+    font-size: 22px;
+    
+}
+.imgIntro img{
+    height: 70%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+/* ========================================================================= */
+
+.ourMD{
+margin-top: 150px;
+margin-left: 650px;
+}
+
+.senior{
+    display: flex;
+    width: 90%;
+}
+.seniorImg{
+    float: left;
+    width: 100%;
+    padding: 50px;
+}
+.seniorImg img{
+    width: 400px;
+    height: 300px;
+}
+.seniorText{
+    float: right;
+    font-size: 20px;
+}
+
+
+
+/* **************************************************************** */
+
+.footer{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    margin-top: 20vh;  
+    color: #fff;
+}
+.footer .footer1{
+    width: 100%;
+    height: 20vh;
+    color: #fff;
+    background-color: blue;
+    margin-top: -20.5vh;  
+}
+.footer1{
+    display: flex;
+}
+.footer1 h2{
+    font-size: 40px;
+    width: 65%;
+}
+.footer1 button{
+   float: right;
+   width: 15%;
+   font-size: 20px;
+   border: 2px solid gray;
+   border-radius: 5px;
+   margin-top: 30px;
+}
+
+.footer2{
+ display: flex;
+ width: 90%;
+ margin: 50px 0px 10px 50px;
+ padding-right: 10px;
+}
+.footer2 h3{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.footer2 ul{
+    list-style: none;
+    font-size: 25px;
+}
+.footer2 ol{
+    /* list-style: none; */
+    font-size: 25px;
+}
